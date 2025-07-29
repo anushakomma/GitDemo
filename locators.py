@@ -29,6 +29,8 @@ assert "Success" in message
 driver.find_element(By.XPATH,"(//input[@type='text'])[3]").send_keys("helloagain")
 driver.find_element(By.XPATH,"(//input[@type='text'])[3]").clear()
 
-
+print("Anusha added new line 1")
+print("Anusha added new line 2")
+print("Anusha added new line 3")
 
 time.sleep(3)
